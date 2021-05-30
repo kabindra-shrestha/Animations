@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val animBottomToTop = AnimationUtils.loadAnimation(this, R.anim.anim_bottom_to_top)
         val animBottomToTop1000 = AnimationUtils.loadAnimation(this, R.anim.anim_bottom_to_top_1000)
         val animBottomToTop1200 = AnimationUtils.loadAnimation(this, R.anim.anim_bottom_to_top_1200)
+        val animBottomToTop1500 = AnimationUtils.loadAnimation(this, R.anim.anim_bottom_to_top_1500)
 
         val tvHeaderTitle = findViewById<TextView>(R.id.tv_header_title)
         val tvSubTitle = findViewById<TextView>(R.id.tv_sub_title)
@@ -33,6 +34,6 @@ class MainActivity : AppCompatActivity() {
         containerMainResultOne.startAnimation(animBottomToTop)
         containerMainResultTwo.startAnimation(animBottomToTop1000)
         containerMainResultThree.startAnimation(animBottomToTop1200)
-        buttonNext.startAnimation(animBottomToTop1200)
+        buttonNext.startAnimation(animBottomToTop1500)
     }
 }
