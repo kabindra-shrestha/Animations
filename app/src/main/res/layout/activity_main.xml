@@ -57,6 +57,7 @@
         app:layout_constraintTop_toBottomOf="@id/iv_main_logo">
 
         <LinearLayout
+            android:id="@+id/container_main_result_one"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -94,6 +95,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/container_main_result_two"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -131,6 +133,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/container_main_result_three"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
